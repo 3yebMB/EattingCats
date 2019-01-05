@@ -15,10 +15,10 @@ public class Dish extends Bowls {
                 foodInside -= catFamily.getMaxFood();
             }
             else
-                System.out.println("В миске недостаточно еды.");
+                System.out.println("Для кота " + catFamily.getName() + " в миске недостаточно еды. Еда закончилась.");
         }
         else
-            System.out.println("Котик сыт. В кормлении не нуждается... пока!");
+            System.out.println("Котик " + catFamily.getName() + " сыт. В кормлении не нуждается... пока!");
     }
 
     @Override
